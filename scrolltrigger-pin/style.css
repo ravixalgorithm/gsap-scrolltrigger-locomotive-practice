@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(196, 173, 144);
+}
+
+#page2 img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#page2 h1{
+    opacity: 100;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 150px;
+    color: #fff;
+
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 197, 133);
+}
