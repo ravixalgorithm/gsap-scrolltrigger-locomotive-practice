@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #9AC1CB;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+#page2 h1{
+    font-size: 35vw;
+    font-weight: 500;
+    letter-spacing: -45px;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
