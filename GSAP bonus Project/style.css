@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #E3E3C4;
+}
+
+#page2{
+    height: 130vh;
+    width: 100%;
+    background-color: #606C4C;
+    padding: 6vw;
+}
+
+#page2 h1{
+    color:#434B34;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 4.5vw;
+    font-family: "PP woodland";
+    font-weight: 500;
+    letter-spacing: -0.1vw;
+}
+
+#page2 h1 span{
+    font-family: PP woodland;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #F7F7EE;
+}
